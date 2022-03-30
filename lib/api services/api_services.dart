@@ -19,7 +19,6 @@ class ApiServices {
         //if req suceeds
         var jsonData = json.decode(response.body);
         trackNameModel = TrackNameModel.fromJson(jsonData);
-        print('in method getTrackNames');
 
         return trackNameModel;
       }
@@ -39,7 +38,6 @@ class ApiServices {
         //if req suceeds
         var jsonData = json.decode(response.body);
         trackDetailModel = TrackDetailsModel.fromJson(jsonData);
-        print('in method getTrackDetails');
 
         return trackDetailModel;
       }
@@ -59,7 +57,6 @@ class ApiServices {
         //if req suceeds
         var jsonData = json.decode(response.body);
         lyricsModel = LyricsModel.fromJson(jsonData);
-        print('in method getLyrics');
 
         return lyricsModel;
       }

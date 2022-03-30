@@ -1,7 +1,6 @@
-import 'package:credicxo_internship_assignment/screens/home_screen.dart';
 import 'package:credicxo_internship_assignment/screens/main_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:hive/hive.dart';
+
 import 'package:hive_flutter/hive_flutter.dart';
 
 const String fav = "favorite_box";

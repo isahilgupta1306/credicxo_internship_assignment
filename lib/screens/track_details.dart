@@ -3,11 +3,9 @@ import 'package:credicxo_internship_assignment/api%20services/models/lyrics_mode
 import 'package:credicxo_internship_assignment/api%20services/models/track_details_model.dart';
 import 'package:credicxo_internship_assignment/main.dart';
 import 'package:credicxo_internship_assignment/utils/custom_colors.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:hive/hive.dart';
 import 'package:hive_flutter/adapters.dart';
 
 class TrackDetails extends StatefulWidget {

@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../api services/models/track_name_model.dart';
@@ -11,7 +10,6 @@ class HomeScreenWidget {
       future: future,
       builder: (ctx, snapshot) {
         if (snapshot.hasData) {
-          print(snapshot.data);
           List<TrackList?> modelList =
               OnlyHasLyrics().lyricsValidator(snapshot);
 

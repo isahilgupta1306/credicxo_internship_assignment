@@ -50,8 +50,8 @@ class _MainScreenState extends State<MainScreen> {
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.favorite),
-            label: 'Favorites',
+            icon: Icon(Icons.bookmark),
+            label: 'Bookmarks',
           ),
         ],
       ),
