@@ -9,3 +9,4 @@ const Color primaryColorLight = Color.fromARGB(255, 71, 211, 183);
 const Color primaryColorDark = Color(0xff117a65); //0xFF148F77
 const Color dimWhite = Color(0xffE2EEEB);
 const Color royalBlack = Color(0xff283747);
+const Color royalRed = Color.fromARGB(255, 235, 57, 101);
